@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Sign Up Success</title>
 </head>
-<body>
+<body> // Sign Up
     <h1>Sign Up Successful</h1>
     <p>Username: <%= request.getAttribute("customerNAME") %></p>
     <p>Email   : <%= request.getAttribute("customerEMAIL") %></p>
